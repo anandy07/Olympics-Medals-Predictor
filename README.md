@@ -41,7 +41,7 @@ An intelligent Olympic medal prediction system built using **Python**, **Jupyter
 
 ### 1️⃣ Clone the Repository
 
-```bash
+bash
 git clone https://github.com/anandy07/olympics-medals-predictor.git
 cd olympics-medals-predictor
 2️⃣ Create a Virtual Environment (optional but recommended)
@@ -88,13 +88,13 @@ Add medal category breakdown (gold/silver/bronze)
 
 Visualize trends over decades
 
-🧑‍💻 Author
+##🧑‍💻 Author
 Developed by Anand Yadav
 GitHub: @anandy07
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
 
-⭐ Contribute & Support
+ ##⭐ Contribute & Support
 If you liked this project, consider giving it a star ⭐ on GitHub!
 Pull requests, issues, and suggestions are always welcome.
