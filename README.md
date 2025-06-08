@@ -88,12 +88,21 @@ Add medal category breakdown (gold/silver/bronze)
 
 Visualize trends over decades
 
+-----
+
 ##🧑‍💻 Author
 Developed by Anand Yadav
 GitHub: @anandy07
 
+----
+
+
+
 ##📜 License
 This project is licensed under the MIT License.
+
+---
+
 
  ##⭐ Contribute & Support
 If you liked this project, consider giving it a star ⭐ on GitHub!
