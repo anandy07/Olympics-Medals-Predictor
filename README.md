@@ -1,27 +1,25 @@
 # 🏅 Olympics Medals Predictor
 
-A data-driven machine learning project to **predict Olympic medal counts** for countries using historical performance, number of athletes, and other relevant features.
-
-Built with **Python**, **Pandas**, **Scikit-learn**, and **Seaborn**, this project provides insights and predictions based on Olympic data.
+An intelligent Olympic medal prediction system built using **Python**, **Jupyter Notebook**, and **scikit-learn**. It forecasts the number of medals a country will win based on historical data, number of athletes, and other features.
 
 ---
 
 ## 🚀 Features
 
-✅ Predicts medal counts based on historical data  
-✅ Uses Linear Regression with visualizations  
-✅ Clean train-test split based on year (pre/post 2012)  
-✅ Supports filtering/predicting for a single country  
-✅ Jupyter Notebook with full EDA + model workflow  
+✅ **Linear Regression Model** for medal prediction  
+✅ **Year-wise Train/Test Split** (e.g., pre-2012 vs post-2012)  
+✅ **Exploratory Data Analysis** with Seaborn and Matplotlib  
+✅ **Country-wise Medal Lookup**  
+✅ **Interactive Visualizations** for insights  
 
 ---
 
 ## 🛠️ Tech Stack
 
+* **Platform**: Jupyter Notebook  
 * **Language**: Python  
-* **Environment**: Jupyter Notebook  
-* **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-* **Model**: Linear Regression  
+* **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+* **Modeling**: Linear Regression (with sklearn)  
 
 ---
 
@@ -29,12 +27,13 @@ Built with **Python**, **Pandas**, **Scikit-learn**, and **Seaborn**, this proje
 
 ### Jupyter Notebook (`Olympics medals predictor.ipynb`)
 
-* Loads and processes Olympic dataset
-* Performs Exploratory Data Analysis (EDA)
-* Splits data into training (before 2012) and test (2012+)
-* Trains a Linear Regression model
-* Predicts and visualizes medal counts
-* Allows querying medals by country name
+* Loads Olympic dataset  
+* Performs data cleaning and preprocessing  
+* Conducts visual exploration (e.g., medals vs. athletes)  
+* Splits dataset into training and test based on year  
+* Trains a Linear Regression model  
+* Predicts and visualizes medal counts  
+* Allows user to query predictions by country name
 
 ---
 
@@ -43,14 +42,14 @@ Built with **Python**, **Pandas**, **Scikit-learn**, and **Seaborn**, this proje
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/olympics-medals-predictor.git
+git clone https://github.com/anandy07/olympics-medals-predictor.git
 cd olympics-medals-predictor
-2️⃣ Create a Virtual Environment (Optional)
+2️⃣ Create a Virtual Environment (optional but recommended)
 bash
 Copy
 Edit
 python -m venv env
-source env/bin/activate  # For Windows: env\Scripts\activate
+source env/bin/activate  # or use env\Scripts\activate on Windows
 3️⃣ Install Dependencies
 bash
 Copy
@@ -63,37 +62,31 @@ bash
 Copy
 Edit
 jupyter notebook Olympics\ medals\ predictor.ipynb
-Once open, run each cell step-by-step to:
-
-Explore the dataset
-
-Train the model
-
-Predict medal counts
-
-Filter predictions for any country using:
+You can search for a specific country in the predictions:
 
 python
 Copy
 Edit
 test[test["team"] == "IND"]
+This will return the predicted medal count for India.
+
 📁 File Structure
 bash
 Copy
 Edit
 .
-├── Olympics medals predictor.ipynb  # Jupyter Notebook with code + visualizations
+├── Olympics medals predictor.ipynb  # Jupyter Notebook with model and visualizations
 ├── dataset/                         # (Optional) Folder containing CSVs
-├── requirements.txt                # List of dependencies
+├── requirements.txt                # Python dependencies
 └── README.md                       # Project documentation
-✨ Future Improvements
-Add more predictive features (GDP, funding, training resources)
+✨ Future Ideas
+Include additional predictors like GDP, investment, previous rank
 
-Improve accuracy with ensemble models
+Build a web app using Streamlit for live predictions
 
-Streamlit dashboard for real-time predictions
+Add medal category breakdown (gold/silver/bronze)
 
-Country flag/poster integration using API
+Visualize trends over decades
 
 🧑‍💻 Author
 Developed by Anand Yadav
@@ -103,13 +96,5 @@ GitHub: @anandy07
 This project is licensed under the MIT License.
 
 ⭐ Contribute & Support
-If you found this useful, consider giving it a star ⭐ on GitHub!
-Pull requests, feature suggestions, and forks are always welcome.
-
-yaml
-Copy
-Edit
-
----
-
-Would you also like a `requirements.txt` file generated based on the notebook?
+If you liked this project, consider giving it a star ⭐ on GitHub!
+Pull requests, issues, and suggestions are always welcome.
