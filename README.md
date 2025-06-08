@@ -105,3 +105,11 @@ This project is licensed under the MIT License.
 ⭐ Contribute & Support
 If you found this useful, consider giving it a star ⭐ on GitHub!
 Pull requests, feature suggestions, and forks are always welcome.
+
+yaml
+Copy
+Edit
+
+---
+
+Would you also like a `requirements.txt` file generated based on the notebook?
